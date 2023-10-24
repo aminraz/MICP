@@ -58,7 +58,7 @@ Calcite
 21 V_cell = 102 # ml
 22 d_calcite = 36.9 # cm³/mol
 23 pow_a = 2
-25 A0 = .5
+25 A0 = 1.0
 30 si_cc = SI("Calcite")
 70 Area = A0 * initial_por/get_por(cell_no)^pow_a * soln_vol
 80 rate = Area * (parm(1) + parm(2)*act("H+")) * (1-10^SI("Calcite"))
